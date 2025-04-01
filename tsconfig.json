@@ -12,7 +12,6 @@
     "noEmit": true,
     "outDir": "dist",
     "paths": {
-      "@/*": ["./src/*"],
       "functions": ["./src/functions/exports.ts"],
       "types": ["./src/types/exports.ts"]
     }
