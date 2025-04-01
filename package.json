@@ -1,13 +1,13 @@
 {
-  "name": "validate-path",
+  "name": "validate-this-path",
   "description": "Validate paths in a given directory",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "main": "./dist/index.js",
   "module": "./dist/index.mjs",
   "types": "./dist/index.d.ts",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/tawhedmuslim1/validate-path.git"
+    "url": "git+https://github.com/tawhedmuslim1/validate-this-path.git"
   },
   "scripts": {
     "build": "tsup"
