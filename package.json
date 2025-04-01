@@ -1,7 +1,7 @@
 {
   "name": "validate-this-path",
   "description": "A lightweight TypeScript utility package for validating, sanitizing, and manipulating file paths across different operating systems",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "main": "./dist/index.js",
   "module": "./dist/index.mjs",
   "types": "./dist/index.d.ts",
