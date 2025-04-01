@@ -1,13 +1,13 @@
 {
   "name": "validate-this-path",
   "description": "A lightweight TypeScript utility package for validating, sanitizing, and manipulating file paths across different operating systems",
-  "version": "0.0.4",
+  "version": "0.1.0",
   "main": "./dist/index.js",
   "module": "./dist/index.mjs",
   "types": "./dist/index.d.ts",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/tawhedmuslim1/validate-this-path.git"
+    "url": "https://github.com/tawhedmuslim1/validate-this-path.git"
   },
   "scripts": {
     "build": "tsup",
