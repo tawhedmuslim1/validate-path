@@ -1,7 +1,7 @@
 {
   "name": "validate-this-path",
-  "description": "Validate paths in a given directory",
-  "version": "0.0.3",
+  "description": "A lightweight TypeScript utility package for validating, sanitizing, and manipulating file paths across different operating systems",
+  "version": "0.0.4",
   "main": "./dist/index.js",
   "module": "./dist/index.mjs",
   "types": "./dist/index.d.ts",
@@ -10,18 +10,34 @@
     "url": "git+https://github.com/tawhedmuslim1/validate-this-path.git"
   },
   "scripts": {
-    "build": "tsup"
+    "build": "tsup",
+    "test": "jest",
+    "lint": "eslint src --ext .ts",
+    "format": "prettier --write \"src/**/*.ts\"",
+    "prepublishOnly": "npm run build"
   },
   "keywords": [
     "path",
     "validator",
     "directory",
     "validate",
-    "paths"
+    "paths",
+    "path-validation",
+    "path-sanitization",
+    "cross-platform"
   ],
   "author": "tawhedmuslim1",
   "license": "MIT",
   "devDependencies": {
+    "@types/jest": "^29.5.12",
+    "@types/node": "^20.11.24",
+    "@typescript-eslint/eslint-plugin": "^7.1.0",
+    "@typescript-eslint/parser": "^7.1.0",
+    "eslint": "^8.57.0",
+    "eslint-config-prettier": "^9.1.0",
+    "jest": "^29.7.0",
+    "prettier": "^3.2.5",
+    "ts-jest": "^29.1.2",
     "tsup": "^8.4.0",
     "typescript": "^5.8.2"
   }
