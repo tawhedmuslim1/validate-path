@@ -1,0 +1,29 @@
+{
+  "name": "path-validator",
+  "description": "Validate paths in a given directory",
+  "version": "0.0.1",
+  "main": "./dist/index.js",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tawhedmuslim1/path-validator"
+  },
+  "scripts": {
+    "build": "tsup"
+  },
+  "keywords": [
+    "path",
+    "validator",
+    "directory",
+    "validate",
+    "paths"
+  ],
+  "author": "ezzeldin",
+  "license": "MIT",
+  "packageManager": "pnpm@10.7.0",
+  "devDependencies": {
+    "tsup": "^8.4.0",
+    "typescript": "^5.8.2"
+  }
+}

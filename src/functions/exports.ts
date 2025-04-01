@@ -1,0 +1,1 @@
+import { validatePath } from "./validPath";
